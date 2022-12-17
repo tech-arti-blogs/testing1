@@ -1,0 +1,6 @@
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    workingDir: '$(Build.SourcesDirectory)/web/app'
+    customCommand: 'run test'
+  continueOnError: true
