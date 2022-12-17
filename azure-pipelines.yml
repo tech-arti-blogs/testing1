@@ -12,6 +12,8 @@ stages:
     steps:
     - task: Npm@1
       inputs:
-        command: 'install'
+        command: 'custom'
+    customCommand: 'run test'
+  continueOnError: true
 - template: templates1.yml
 - template: templates2.yml
