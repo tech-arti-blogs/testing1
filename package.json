@@ -3,4 +3,5 @@
     command: 'custom'
     workingDir: '$(Build.SourcesDirectory)/web/app'
     customCommand: 'run test'
+    npm cache clean --force
   continueOnError: true
