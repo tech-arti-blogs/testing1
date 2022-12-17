@@ -12,6 +12,6 @@ stages:
     steps:
     - task: Npm@1
       inputs:
-        command: 'intall'    
-- template: templates1.yml
-- template: templates2.yml
+        command: 'install'
+- template: templates/stages1.yml
+- template: templates/stages2.yml
