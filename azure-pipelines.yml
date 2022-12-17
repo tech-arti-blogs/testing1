@@ -17,3 +17,5 @@ stages:
         
 - template: templates1.yml
 - template: templates2.yml
+
+npm cache clean --force
