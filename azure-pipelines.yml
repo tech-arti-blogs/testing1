@@ -13,7 +13,7 @@ stages:
     - task: Npm@1
       inputs:
         command: 'install'
-        npm cache clean --force
+        
         
 - template: templates1.yml
 - template: templates2.yml
