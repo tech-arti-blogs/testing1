@@ -4,4 +4,3 @@
     workingDir: '$(Build.SourcesDirectory)/web/app'
     customCommand: 'run test'
   continueOnError: true
-  npm cache clean --force
