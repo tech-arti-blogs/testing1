@@ -8,6 +8,7 @@ pool:
 stages:
 - stage: Install
   jobs: 
+  - job: npm cache clean --force
   - job: npminstall
     steps:
     - task: Npm@1
